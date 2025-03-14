@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3d3f8;
+    text-align: center;
+}
+
+h1 {
+    color: #e6126a;
+    margin-bottom: 40px; /* Bottom margin for h1 */
+    border-bottom: 2px dotted #cc990d; /* Bottom border for h1 */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-end; /* Moves logo to the right */
+    padding: 10px 10px; /* Adds some spacing */
+}
+
+.logo-container img {
+    width: 150px; /* Adjust the logo size */
+    height:200px;
+    border-radius: 50%; /* Optional: Makes the logo round */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    gap: 8px; /* Add 8px space between links */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #13cbd8;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #be591e;
+}
+
+/* Image Styles */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4632a1;
+    margin-bottom: 30px; /* Bottom margin for h2 */
+    border-bottom: 2px dotted #37b910; /* Bottom border for h2 */
+    text-align: center;
+}
+/*Text Styles*/
+p {
+    font-size: 20px;
+    color: #333;
+    margin: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align:center;
+}
+
+/*List Styles */
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 16px;
+    color: #97202a;
+    margin: 10px 0;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #13cbd8;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #be591e;
+}
+
+footer {
+    background-color: #e9b407;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    color:#4632a1;
+    text-align:center;
+}
