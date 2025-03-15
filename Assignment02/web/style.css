@@ -30,12 +30,14 @@ p {
     color: #333;
     margin-bottom: 20px; /* Bottom margin for p */
     width: 50%;
+    margin-inline: auto;
     text-align: center;
 }
 
 ul {
     list-style-type: none;
     margin-top: 10px;
+    padding-left: 0px;
 }
 
 li {
