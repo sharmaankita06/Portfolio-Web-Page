@@ -24,8 +24,14 @@ h1 {
 
 .logo-container img {
     width: 150px; /* Adjust the logo size */
-    height:200px;
     border-radius: 50%; /* Optional: Makes the logo round */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Navigation Bar */
@@ -69,6 +75,7 @@ p {
     color: #333;
     margin: 20px;
     width: 90%;
+    margin-inline: auto;
     max-width: 600px;
     text-align:center;
 }
@@ -94,6 +101,8 @@ li {
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    border: none; /* Removes the border */
+    cursor: pointer; /* Changes the cursor to a hand */
 }
 
 .button:hover {
